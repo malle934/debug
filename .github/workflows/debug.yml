@@ -6,7 +6,7 @@ on:
 env: 
   USER_1: "foo-user"
   USER_2: "bar-user"
-
+ 
 jobs:
   debug_job:
     runs-on: ubuntu-latest
