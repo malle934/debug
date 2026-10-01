@@ -16,7 +16,7 @@ jobs:
 
       - name: Set USERNAME from USER_1
         run: |
-          echo "USERNAME=$USER_1" >> $GITHUB_ENV
+          echo "USERNAME=$USER_1" >> $GITHUB_ENV 
 
       - name: Print USERNAME and Fail
         run: |
