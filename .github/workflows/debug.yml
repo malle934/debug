@@ -3,7 +3,7 @@ name: Debugging Demo
 on:
   workflow_dispatch:
 
-env:
+env: 
   USER_1: "foo-user"
   USER_2: "bar-user"
 
